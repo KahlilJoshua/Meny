@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+  }
+  
+  .menyy {
+    position: relative;
+    width: calc(100% - 80px); /* Adjust the width by subtracting twice the margin value */
+    height: 180vh; /* Adjust the height as needed */
+    margin: 40px auto; /* Add 40px margin to the top, right, and left sides */
+    background-image: url(Bilder/blackboard.jfif);
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+    margin: 10px;
+    height: 1100px; /* Adjust the height as needed */
+    outline-color: whitesmoke;
+    outline-width: 1px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .box {
+      flex: 0 0 100%; /* Make the boxes stack vertically on smaller screens */
+      margin: 10px 0;
+    }
+  }
+  h1{
+    font-family:'Freehand', cursive;
+    color: white;
+    font-size: 70px;
+    margin-left: 30px;
+  }
+  hr.hr1{
+    background-color: whitesmoke;
+    height: 6px;
+  }
+  .bild{
+    width: 200px;
+    border-radius: 100px;
+    float: right;
+  }
+  h2{
+    margin-top: 15px;
+    font-family:'Freehand', cursive;
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+    float: left;
+  }
+  h3{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 16px;
+    float: right;
+    
+  }
+  hr{
+    background-color: whitesmoke;
+    height: 1px;
+}
+h1.menytitel1{
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: lighter;
+    color: rgb(121, 223, 103);
+    
+}
+h1.menytitel2{
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    
+}
+h1.menytitel3{
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: lighter;
+    color: rgb(225, 103, 98);
+    
+}
+.menyitem{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.bild2meny{
+    width: 200px;
+    float: left;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.bild1meny{
+    width: 200px;
+    float: right;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
